@@ -4,8 +4,12 @@ import './index.css';
 import MyList from './MyList';
 import reportWebVitals from './reportWebVitals';
 
+
+const toDos = ["Take out the Garbage", "go to get groceries", "shovel the driveway"]
+
+
 ReactDOM.render(
-  <MyList />,
+  <MyList theList={toDos} />,
   document.getElementById('root')
 );
 
